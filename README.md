@@ -35,6 +35,10 @@ Please star the project if you like it :)
 
 * This is primarily used by OpenPeppol itself, but was used in other eDelivery based EU projects as well
 
+# Peppol Network Reporting
+
+* [peppol-reporting](https://github.com/phax/peppol-reporting) contains the data model for the Transaction Statistics Report (TSR) and End User Statistics Report (EUSR)
+
 # Peppol related components
 
 * [peppol-commons](https://github.com/phax/peppol-commons) is a set of shared and reusable libraries
