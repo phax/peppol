@@ -22,7 +22,7 @@ Please star the project if you like it :)
 * [ph-schematron](https://github.com/phax/ph-schematron/) is a generic Schematron validation *library*. It offers different "engines" to perform the actual validation.
 * [phive](https://github.com/phax/phive) is a more advanced validation *library* that deals with different types of validations and includes XML Schema (XSD) and Schematron validation (based on ph-schematron)
 * [phive-rules](https://github.com/phax/phive-rules) is a set of collected validation rules to be used with **phive** to validate actual business documents (e.g. Peppol BIS Billing, XRechnung, ...)
-* [ddd](https://github.com/phax/phive-rules) is a library that can be used to determine the VESID of a business document for usage with **phive**
+* [ddd](https://github.com/phax/ddd) is a library that can be used to determine the VESID of a business document for usage with **phive**
 
 ## Users
 
