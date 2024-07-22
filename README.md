@@ -20,9 +20,9 @@ Please star the project if you like it :)
 # Document Validation
 
 * [ph-schematron](https://github.com/phax/ph-schematron/) is a generic Schematron validation *library*. It offers different "engines" to perform the actual validation.
-* [phive](https://github.com/phax/phive) is a more advanced validation *library* that deals with different types of validations and includes XML Schema (XSD) and Schematron validation (based on ph-schematron)
-* [phive-rules](https://github.com/phax/phive-rules) is a set of collected validation rules to be used with **phive** to validate actual business documents (e.g. Peppol BIS Billing, XRechnung, ...)
-* [ddd](https://github.com/phax/ddd) is a library that can be used to determine the VESID of a business document for usage with **phive**
+* [phive](https://github.com/phax/phive) is a more advanced validation *library* that deals with different types of validations and includes XML Schema (XSD) and Schematron validation (based on `ph-schematron`)
+* [phive-rules](https://github.com/phax/phive-rules) is a set of collected validation rules to be used with **phive** to validate actual business documents (e.g. Peppol BIS Billing, XRechnung, ...) (based on `phive`)
+* [ddd](https://github.com/phax/ddd) is a library that can be used to determine the VESID of a business document for usage with **phive** (links to the VESIDs from `phive-rules`)
 
 ## Users
 
@@ -42,19 +42,19 @@ Please star the project if you like it :)
 
 # Peppol related components
 
+* [ph-xsds](https://github.com/phax/ph-xsds/) contains the JAXB generated data models for a bunch of commonly used XML Schemas
+* [ph-sbdh](https://github.com/phax/ph-sbdh)  contains the JAXB generated data models for the Standard Business Document Header (SBDH)
+* [ph-ubl](https://github.com/phax/ph-ubl) contains the JAXB generated data models for UBL 2.x
+* [ph-cii](https://github.com/phax/ph-cii) contains the JAXB generated data models for Cross Industry Invoice (CII)
 * [peppol-commons](https://github.com/phax/peppol-commons) is a set of shared and reusable libraries
     * peppol-id-datatypes contains the JAXB generated datatypes for Peppol identifiers
     * peppol-id contains a set of predefined Peppol identifiers (Document Types, Processes, Participant Identifier Schemes and Transport Profiles)
     * peppol-commons a set of generic helper methods support the use of certificates and the trust model
-    * peppol-sbdh contains the specific rules to be applied to an SBDH document to comply to the Peppol specifications
+    * peppol-sbdh contains the specific rules to be applied to an SBDH document to comply to the Peppol specifications (based on `ph-sbdh`)
     * peppol-sml-client contains a client to access the public APIs of an SML that uses the Peppol SML specification. This is mainly used for SMP servers.
     * peppol-smp-datatypes contains the JAXB generated datatypes for SMP data types
     * peppol-smp-client contains a client to access SMP servers that follow the Peppol SMP specification
     * peppol-directory-businesscard contains the JAXB generated datatypes for the Peppol Business Card
-    * peppol-mlr contains supporting methods to easily create a Peppol Message Level Response
-* [ph-sbdh](https://github.com/phax/ph-sbdh)  contains the JAXB generated data models for the Standard Business Document Header (SBDH)
-* [ph-ubl](https://github.com/phax/ph-ubl) contains the JAXB generated data models for UBL 2.x
-* [ph-cii](https://github.com/phax/ph-cii) contains the JAXB generated data models for Cross Industry Invoice (CII)
-* [en16931-cii2ubl](https://github.com/phax/en16931-cii2ubl) is a library that allows you to convert CII to UBL (only in that direction) in case you are forced to deal with CII but you don't want to deal with it
-* [ph-xsds](https://github.com/phax/ph-xsds/) contains the JAXB generated data models for a bunch of commonly used XML Schemas
+    * peppol-mlr contains supporting methods to easily create a Peppol Message Level Response (based on `ph-ubl`)
+* [en16931-cii2ubl](https://github.com/phax/en16931-cii2ubl) is a library that allows you to convert CII to UBL (only in that direction) in case you are forced to deal with CII but you don't want to deal with it (based on `ph-ubl` and `ph-cii`)
 
