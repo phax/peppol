@@ -16,6 +16,7 @@ Please star the project if you like it :)
 
 * [phoss SMP](https://github.com/phax/phoss-smp/) is a standalone Peppol SMP server. Provided with different backends to store data. Prebuilt Docker images are available.
 * [SMP Client](https://github.com/phax/peppol-commons?tab=readme-ov-file#peppol-smp-client) is a shared component to access an SMP from e.g. an AP (see above)
+* [Standalone SMP Client](https://github.com/phax/smp-query-webapp) is a standalone Peppol SMP client if you don't want to use the Java code. It offers a JSON response instead.
 
 # Document Validation
 
