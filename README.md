@@ -14,15 +14,16 @@ Please star the project if you like it :)
 
 # Service Metadata Publisher (SMP)
 
-* [phoss SMP](https://github.com/phax/phoss-smp/) is a standalone Peppol SMP server. Provided with different backends to store data. Prebuilt Docker images are available.
+* [phoss SMP](https://github.com/phax/phoss-smp/) is a standalone Peppol SMP server. Used by more than 50% of all production SMPs. Ships with different backends to store data. Pre-built Docker images are available.
 * [SMP Client](https://github.com/phax/peppol-commons?tab=readme-ov-file#peppol-smp-client) is a shared component to access an SMP from e.g. an AP (see above)
-* [Standalone SMP Client](https://github.com/phax/smp-query-webapp) is a standalone Peppol SMP client if you don't want to use the Java code. It offers a JSON response instead.
+* [Standalone SMP Client](https://github.com/phax/smp-query-webapp) is a standalone Peppol SMP client available as pre-built Docker image if you don't want to use the Java code. It offers a JSON response instead.
 
 # Document Validation
 
 * [ph-schematron](https://github.com/phax/ph-schematron/) is a generic Schematron validation *library*. It offers different "engines" to perform the actual validation.
 * [phive](https://github.com/phax/phive) is a more advanced validation *library* that deals with different types of validations and includes XML Schema (XSD) and Schematron validation (based on `ph-schematron`)
 * [phive-rules](https://github.com/phax/phive-rules) is a set of collected validation rules to be used with **phive** to validate actual business documents (e.g. Peppol BIS Billing, XRechnung, ...) (based on `phive`)
+* [phive-binary](https://github.com/phax/phive-binary) is a set of collected validation rules to be used with **phive** to validate actual business documents (e.g. Peppol BIS Billing, XRechnung, ...) (based on `phive`)
 * [ddd](https://github.com/phax/ddd) is a library that can be used to determine the VESID of a business document for usage with **phive** (links to the VESIDs from `phive-rules`)
 
 ## Users
