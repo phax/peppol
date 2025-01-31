@@ -1,4 +1,4 @@
-# Peppol OSS Suite
+# Peppol Open Source Suite
 
 This is an overview page  pointing to my different Peppol solutions.
 All of the solutions are Java based, requiring at least Java 11, require Maven to build and are usually deployed to [Maven Central](https://central.sonatype.com/).
