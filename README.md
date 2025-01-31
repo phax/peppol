@@ -9,6 +9,7 @@ Please star the project if you like it :)
 
 * [phase4](https://github.com/phax/phase4) is a *library* implementing the AS4 protocol and including value added services like SMP client, SBDH wrapping etc.
 * [Standalone phase4 for Peppol](https://github.com/phax/phase4-peppol-standalone) is an example implementation of a standalone AP, based on Spring Boot 3.x
+* [Standalone phase4 for Peppol eB2B](https://github.com/phax/phase4-peppol-standalone-eb2b) is an example implementation of a standalone AP, based on Spring Boot 3.x specifically customized for the Enhanced B2B domain
 
 * See [phase4 Known Users](https://github.com/phax/phase4/wiki/Known-Users) for a list of known users that agreed to be listed
 
@@ -59,4 +60,5 @@ Please star the project if you like it :)
     * peppol-directory-businesscard contains the JAXB generated datatypes for the Peppol Business Card
     * peppol-mlr contains supporting methods to easily create a Peppol Message Level Response (based on `ph-ubl`)
 * [en16931-cii2ubl](https://github.com/phax/en16931-cii2ubl) is a library that allows you to convert CII to UBL (only in that direction) in case you are forced to deal with CII but you don't want to deal with it (based on `ph-ubl` and `ph-cii`)
+* [en16931-ubl2cii](https://github.com/phax/en16931-ubl2cii) is a library that allows you to convert UBL to CII (only in that direction) (based on `ph-ubl` and `ph-cii`)
 
