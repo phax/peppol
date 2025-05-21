@@ -9,7 +9,6 @@ Please star the project if you like it :)
 
 * [phase4](https://github.com/phax/phase4) is a *library* implementing the AS4 protocol and including value added services like SMP client, SBDH wrapping etc.
 * [Standalone phase4 for Peppol](https://github.com/phax/phase4-peppol-standalone) is an example implementation of a standalone AP, based on Spring Boot 3.x
-* [Standalone phase4 for Peppol eB2B](https://github.com/phax/phase4-peppol-standalone-eb2b) is an example implementation of a standalone AP, based on Spring Boot 3.x specifically customized for the Enhanced B2B domain
 * [peppol-ap-support](https://github.com/phax/peppol-ap-support/) is a library with Access Point support functions. It is a separate project so that it can leverage other projects like `peppol-commons` and `peppol-reporting`
 
 * See [phase4 Known Users](https://github.com/phax/phase4/wiki/Known-Users) for a list of known users that agreed to be listed
