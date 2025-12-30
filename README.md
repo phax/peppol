@@ -45,7 +45,7 @@ Please star the project if you like it :)
 
 # Peppol Country specific components
 
-* [peppol-uae](https://github.com/phax/peppol-uae) contains specific support elements for UAE (United Arabic Emirates) 
+* [peppol-uae](https://github.com/phax/peppol-uae) contains specific support elements for UAE (United Arab Emirates) 
 
 # Peppol related components
 
