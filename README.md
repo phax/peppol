@@ -43,10 +43,14 @@ Please star the project if you like it :)
 
 * [peppol-reporting](https://github.com/phax/peppol-reporting) contains the data model for the Transaction Statistics Report (TSR) and End User Statistics Report (EUSR)
 
+# Peppol Country specific components
+
+* [peppol-uae](https://github.com/phax/peppol-uae) contains specific support elements for UAE (United Arabic Emirates) 
+
 # Peppol related components
 
-* [ph-xsds](https://github.com/phax/ph-xsds/) contains the JAXB generated data models for a bunch of commonly used XML Schemas
-* [ph-sbdh](https://github.com/phax/ph-sbdh)  contains the JAXB generated data models for the Standard Business Document Header (SBDH)
+* [ph-xsds](https://github.com/phax/ph-xsds) contains the JAXB generated data models for a bunch of commonly used XML Schemas
+* [ph-sbdh](https://github.com/phax/ph-sbdh) contains the JAXB generated data models for the Standard Business Document Header (SBDH)
 * [ph-ubl](https://github.com/phax/ph-ubl) contains the JAXB generated data models for UBL 2.x
 * [ph-cii](https://github.com/phax/ph-cii) contains the JAXB generated data models for Cross Industry Invoice (CII)
 * [peppol-commons](https://github.com/phax/peppol-commons) is a set of shared and reusable libraries
