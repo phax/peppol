@@ -7,11 +7,15 @@ Please star the project if you like it :)
 
 # Access Point (AP)
 
+* [phoss-ap](https://github.com/phax/phoss-ap) A standalone Peppol Access Point (AP) based on [phase4](https://github.com/phax/phase4) and Spring Boot 4.x
 * [phase4](https://github.com/phax/phase4) is a *library* implementing the AS4 protocol and including value added services like SMP client, SBDH wrapping etc.
-* [Standalone phase4 for Peppol](https://github.com/phax/phase4-peppol-standalone) is an example implementation of a standalone AP, based on Spring Boot 3.x
 * [peppol-ap-support](https://github.com/phax/peppol-ap-support/) is a library with Access Point support functions. It is a separate project so that it can leverage other projects like `peppol-commons` and `peppol-reporting`
 
 * See [phase4 Known Users](https://github.com/phax/phase4/wiki/Known-Users) for a list of known users that agreed to be listed
+
+## Legacy solutions
+
+* [Standalone phase4 for Peppol](https://github.com/phax/phase4-peppol-standalone) is an example implementation of a standalone AP, based on Spring Boot 4.x - recommended to use phoss-ap instead
 
 # Service Metadata Publisher (SMP)
 
@@ -26,7 +30,7 @@ Please star the project if you like it :)
 * [phive-rules](https://github.com/phax/phive-rules) is a set of collected validation rules to be used with **phive** to validate actual business documents (e.g. Peppol BIS Billing, XRechnung, ...) (based on `phive`)
 * [phive-binary](https://github.com/phax/phive-binary) is a set of collected validation rules to be used with **phive** to validate actual business documents (e.g. Peppol BIS Billing, XRechnung, ...) (based on `phive`)
 * [ddd](https://github.com/phax/ddd) is a library that can be used to determine the VESID of a business document for usage with **phive** (links to the VESIDs from `phive-rules`)
-* A standalone Validation REST service is also available as a commercial solution - contact me by [email](mailto:office@helger.com)
+* [phorm](https://github.com/phax/phorm) A standalone Validation REST service.
 
 ## Users
 
@@ -68,4 +72,3 @@ Please star the project if you like it :)
     * peppol-mlr contains supporting methods to easily create a Peppol Message Level Response (based on `ph-ubl`)
 * [en16931-cii2ubl](https://github.com/phax/en16931-cii2ubl) is a library that allows you to convert CII to UBL (only in that direction) in case you are forced to deal with CII but you don't want to deal with it (based on `ph-ubl` and `ph-cii`)
 * [en16931-ubl2cii](https://github.com/phax/en16931-ubl2cii) is a library that allows you to convert UBL to CII (only in that direction) (based on `ph-ubl` and `ph-cii`)
-
