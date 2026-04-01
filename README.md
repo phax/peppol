@@ -30,7 +30,7 @@ Please star the project if you like it :)
 * [phive-rules](https://github.com/phax/phive-rules) is a set of collected validation rules to be used with **phive** to validate actual business documents (e.g. Peppol BIS Billing, XRechnung, ...) (based on `phive`)
 * [phive-binary](https://github.com/phax/phive-binary) is a set of collected validation rules to be used with **phive** to validate actual business documents (e.g. Peppol BIS Billing, XRechnung, ...) (based on `phive`)
 * [ddd](https://github.com/phax/ddd) is a library that can be used to determine the VESID of a business document for usage with **phive** (links to the VESIDs from `phive-rules`)
-* [phorm](https://github.com/phax/phorm) A standalone Validation REST service.
+* [phorm](https://github.com/phax/phorm) A standalone Validation REST service using ph-schematron, phive, phive-rules and ddd together
 
 ## Users
 
