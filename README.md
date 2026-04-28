@@ -51,6 +51,7 @@ Please star the project if you like it :)
 # Peppol Country specific components
 
 * [peppol-sk](https://github.com/phax/peppol-sk) contains specific support elements for Slovakia (SK)
+* [peppol-om](https://github.com/phax/peppol-om) contains specific support elements for Oman (OM)
 * [peppol-uae](https://github.com/phax/peppol-uae) contains specific support elements for United Arab Emirates (UAE)
 * [peppol-vida](https://github.com/phax/peppol-vida) contains specific support elements for the Peppol ViDA pilot
 
