@@ -25,12 +25,12 @@ Please star the project if you like it :)
 
 # Document Validation
 
-* [ph-schematron](https://github.com/phax/ph-schematron/) is a generic Schematron validation *library*. It offers different "engines" to perform the actual validation.
+* [phorm](https://github.com/phax/phorm) A standalone Validation REST service using ph-schematron, phive, phive-rules and ddd together
+* [ddd](https://github.com/phax/ddd) is a library that can be used to determine the VESID of a business document for usage with **phive** (links to the VESIDs from `phive-rules`)
 * [phive](https://github.com/phax/phive) is a more advanced validation *library* that deals with different types of validations and includes XML Schema (XSD) and Schematron validation (based on `ph-schematron`)
 * [phive-rules](https://github.com/phax/phive-rules) is a set of collected validation rules to be used with **phive** to validate actual business documents (e.g. Peppol BIS Billing, XRechnung, ...) (based on `phive`)
 * [phive-binary](https://github.com/phax/phive-binary) is a set of collected validation rules to be used with **phive** to validate actual business documents (e.g. Peppol BIS Billing, XRechnung, ...) (based on `phive`)
-* [ddd](https://github.com/phax/ddd) is a library that can be used to determine the VESID of a business document for usage with **phive** (links to the VESIDs from `phive-rules`)
-* [phorm](https://github.com/phax/phorm) A standalone Validation REST service using ph-schematron, phive, phive-rules and ddd together
+* [ph-schematron](https://github.com/phax/ph-schematron/) is a generic Schematron validation *library*. It offers different "engines" to perform the actual validation.
 
 ## Users
 
@@ -73,3 +73,7 @@ Please star the project if you like it :)
     * peppol-mlr contains supporting methods to easily create a Peppol Message Level Response (based on `ph-ubl`)
 * [en16931-cii2ubl](https://github.com/phax/en16931-cii2ubl) is a library that allows you to convert CII to UBL (only in that direction) in case you are forced to deal with CII but you don't want to deal with it (based on `ph-ubl` and `ph-cii`)
 * [en16931-ubl2cii](https://github.com/phax/en16931-ubl2cii) is a library that allows you to convert UBL to CII (only in that direction) (based on `ph-ubl` and `ph-cii`)
+
+# Other eInvoicing related components
+
+* [kaltblut](https://github.com/phax/kaltblut) is a library that supports the identification, verification and extraction of XML data from hybrid ZUGFeRD and Factur-X invoices
