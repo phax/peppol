@@ -5,6 +5,8 @@ All of the solutions are Java based, requiring at least Java 11, require Maven t
 
 Please star the project if you like it :)
 
+**New to Peppol?** See [usage.md](usage.md) for a quick orientation by four-corner role (C1 / C2 / C3 / C4) — which projects to use where.
+
 # Access Point (AP)
 
 * [phoss-ap](https://github.com/phax/phoss-ap) A standalone Peppol Access Point (AP) based on [phase4](https://github.com/phax/phase4) and Spring Boot 4.x
