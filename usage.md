@@ -34,14 +34,14 @@ Wrap the document in an SBDH, look up the receiver in an SMP, transmit via AS4, 
 
 ## C3 — Receiving Access Point (inbound transmission)
 
-Publish your endpoint in an SMP, receive via AS4, verify the signature and trust chain, unwrap the SBDH, validate, generate a Message Level Response, generate the required network reports.
+Publish your endpoint in an SMP, receive via AS4, verify the signature and trust chain, unwrap the SBDH, validate, generate a Message Level Status (MLS — replacing the older Message Level Response / MLR, which is being phased out), generate the required network reports.
 
 * [**phoss SMP**](https://github.com/phax/phoss-smp/) — operate an SMP server to publish the C3 endpoint that senders look up (receive-side only)
 * [**smp-mate**](https://github.com/phax/smp-mate) — maintenance tool to bulk-provision participants in your SMP (German documentation)
 * [**phoss-ap**](https://github.com/phax/phoss-ap) — same Access Point software as at C2
 * [**phase4**](https://github.com/phax/phase4) — same AS4 library as at C2
 * [**peppol-ap-support**](https://github.com/phax/peppol-ap-support/) — same helpers as at C2
-* [**peppol-commons**](https://github.com/phax/peppol-commons) ([`peppol-sbdh`](https://github.com/phax/peppol-commons?tab=readme-ov-file#peppol-sbdh), [`peppol-mlr`](https://github.com/phax/peppol-commons?tab=readme-ov-file#peppol-mlr), [`peppol-id`](https://github.com/phax/peppol-commons?tab=readme-ov-file#peppol-id)) — SBDH unwrapping, Message Level Response generation
+* [**peppol-commons**](https://github.com/phax/peppol-commons) ([`peppol-sbdh`](https://github.com/phax/peppol-commons?tab=readme-ov-file#peppol-sbdh), [`peppol-mls`](https://github.com/phax/peppol-commons?tab=readme-ov-file#peppol-mls), [`peppol-mlr`](https://github.com/phax/peppol-commons?tab=readme-ov-file#peppol-mlr), [`peppol-id`](https://github.com/phax/peppol-commons?tab=readme-ov-file#peppol-id)) — SBDH unwrapping, Message Level Status (MLS) generation; legacy Message Level Response (MLR) support via `peppol-mlr` is being phased out
 * [**peppol-reporting**](https://github.com/phax/peppol-reporting) — TSR / EUSR generation
 * [**phive**](https://github.com/phax/phive) + [**phive-rules**](https://github.com/phax/phive-rules) — inbound validation; or run [**phorm**](https://github.com/phax/phorm) as a standalone validation REST service that C3 calls
 
