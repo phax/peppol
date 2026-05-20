@@ -24,6 +24,7 @@ Please star the project if you like it :)
 * [phoss SMP](https://github.com/phax/phoss-smp/) is a standalone Peppol SMP server. Used by more than 50% of all production SMPs. Ships with different backends to store data. Pre-built Docker images are available.
 * [SMP Client](https://github.com/phax/peppol-commons?tab=readme-ov-file#peppol-smp-client) is a shared component to access an SMP from e.g. an AP (see above)
 * [Standalone SMP Client](https://github.com/Helger-IT/smp-query-webapp) is a standalone Peppol SMP client available as pre-built Docker image if you don't want to use the Java code. It offers a JSON response instead.
+* [smp-mate](https://github.com/phax/smp-mate) is a maintenance tool to bulk-provision participants in a Peppol SMP (documentation in German)
 
 # Document Validation
 
@@ -56,6 +57,10 @@ Please star the project if you like it :)
 * [peppol-om](https://github.com/phax/peppol-om) contains specific support elements for Oman (OM)
 * [peppol-uae](https://github.com/phax/peppol-uae) contains specific support elements for United Arab Emirates (UAE)
 * [peppol-vida](https://github.com/phax/peppol-vida) contains specific support elements for the Peppol ViDA pilot
+
+# AI integration
+
+* [phoss-peppol-mcp](https://github.com/phax/phoss-peppol-mcp) is a Peppol MCP (Model Context Protocol) server that exposes Peppol Network capabilities as tools to AI models such as Claude
 
 # Peppol related components
 

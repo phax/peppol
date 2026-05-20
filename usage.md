@@ -37,6 +37,7 @@ Wrap the document in an SBDH, look up the receiver in an SMP, transmit via AS4, 
 Publish your endpoint in an SMP, receive via AS4, verify the signature and trust chain, unwrap the SBDH, validate, generate a Message Level Response, generate the required network reports.
 
 * [**phoss SMP**](https://github.com/phax/phoss-smp/) — operate an SMP server to publish the C3 endpoint that senders look up (receive-side only)
+* [**smp-mate**](https://github.com/phax/smp-mate) — maintenance tool to bulk-provision participants in your SMP (German documentation)
 * [**phoss-ap**](https://github.com/phax/phoss-ap) — same Access Point software as at C2
 * [**phase4**](https://github.com/phax/phase4) — same AS4 library as at C2
 * [**peppol-ap-support**](https://github.com/phax/peppol-ap-support/) — same helpers as at C2
@@ -62,6 +63,7 @@ These do not belong to a single corner. They support the Peppol network operated
 * [**phoss Directory**](https://github.com/phax/phoss-directory) — operate a Peppol Directory server
 * [**phoss Directory Client**](https://github.com/phax/phoss-directory?tab=readme-ov-file#pd-client) — query the Peppol Directory (used by SMPs and any participant)
 * [**peppol-commons**](https://github.com/phax/peppol-commons) ([`peppol-sml-client`](https://github.com/phax/peppol-commons?tab=readme-ov-file#peppol-sml-client)) — access the Service Metadata Locator (used by SMP servers when registering)
+* [**phoss-peppol-mcp**](https://github.com/phax/phoss-peppol-mcp) — MCP (Model Context Protocol) server exposing Peppol Network capabilities as tools to AI models such as Claude
 
 ## Country-specific add-ons
 
