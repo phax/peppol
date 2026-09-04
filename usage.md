@@ -20,6 +20,7 @@ Build a valid business document, choose Peppol identifiers, validate before hand
 * [**peppol-commons**](https://github.com/phax/peppol-commons) ([`peppol-id`](https://github.com/phax/peppol-commons?tab=readme-ov-file#peppol-id)) — predefined Peppol identifiers (Document Types, Processes, Participant Identifier Schemes)
 * [**phive**](https://github.com/phax/phive) + [**phive-rules**](https://github.com/phax/phive-rules) + [**ddd**](https://github.com/phax/ddd) — validate the document before handing it to C2 ([`ddd`](https://github.com/phax/ddd) resolves the VESID for [`phive`](https://github.com/phax/phive))
 * [**en16931-cii2ubl**](https://github.com/phax/en16931-cii2ubl) / [**en16931-ubl2cii**](https://github.com/phax/en16931-ubl2cii) — convert between CII and UBL when the back-office format differs from what you must send
+* [**en16931-purifier**](https://github.com/phax/en16931-purifier) — strip everything that is not part of the EN 16931 core message before sending, keeping the syntax and the XML Schema validity
 
 ## C2 — Sending Access Point (outbound transmission)
 
@@ -53,6 +54,7 @@ Parse the received document, re-validate, convert it to whatever format your bac
 * [**ph-cii**](https://github.com/phax/ph-cii) — parse CII documents
 * [**phive**](https://github.com/phax/phive) + [**phive-rules**](https://github.com/phax/phive-rules) — re-validate the received document inside your application
 * [**en16931-cii2ubl**](https://github.com/phax/en16931-cii2ubl) / [**en16931-ubl2cii**](https://github.com/phax/en16931-ubl2cii) — convert into the format your back-office prefers
+* [**en16931-purifier**](https://github.com/phax/en16931-purifier) — reduce the received document to the EN 16931 core message so the back-office only sees standardized content
 * [**kaltblut**](https://github.com/phax/kaltblut) — extract embedded XML from hybrid ZUGFeRD / Factur-X PDF invoices (useful when such invoices arrive alongside Peppol traffic)
 
 ## Outside the corners — network infrastructure
