@@ -30,10 +30,12 @@ Please star the project if you like it :)
 # Document Validation
 
 * [phorm](https://github.com/phax/phorm) A standalone Validation REST service using ph-schematron, phive, phive-rules and ddd together
+* [phorm-client](https://github.com/phax/phorm-client) is a Java client library for the REST API of **phorm**. It covers all phorm APIs and returns the regular `phive` and `ddd` object models (based on `ph-httpclient`)
 * [ddd](https://github.com/phax/ddd) is a library that can be used to determine the VESID of a business document for usage with **phive** (links to the VESIDs from `phive-rules`)
 * [phive](https://github.com/phax/phive) is a more advanced validation *library* that deals with different types of validations and includes XML Schema (XSD) and Schematron validation (based on `ph-schematron`)
 * [phive-rules](https://github.com/phax/phive-rules) is a set of collected validation rules to be used with **phive** to validate actual business documents (e.g. Peppol BIS Billing, XRechnung, ...) (based on `phive`)
 * [phive-rules-foundations](https://github.com/phax/phive-rules-foundations) contains the foundational, rarely changing rule sets that other rule sets build upon - the pure structural (XSD only) validation of UBL, CII, ebInterface, Facturae, fatturaPA, Finvoice, KSeF, OSA and TEAPPS. It was split out of `phive-rules` in 2026 so it can be versioned and released independently
+* [phive-rules-legacy](https://github.com/phax/phive-rules-legacy) contains the outdated rule sets - validation rules for document format versions that are no longer current (e.g. older Peppol and OIOUBL rules), but still needed to validate older documents. It was split out of `phive-rules` in 2026 (based on `phive`)
 * [phive-rules-shared](https://github.com/phax/phive-rules-shared) contains the registration SPI and the helper classes shared by all `phive-rules` modules
 * [phive-binary](https://github.com/phax/phive-binary) is a `phive`-inspired validation *library* for binary file formats — validates files by extension or MIME type (used for non-XML attachments in e-invoicing contexts)
 * [ph-schematron](https://github.com/phax/ph-schematron/) is a generic Schematron validation *library*. It offers different "engines" to perform the actual validation.
@@ -94,6 +96,7 @@ Please star the project if you like it :)
     * peppol-mls contains supporting methods to read and write a Peppol Message Level Status (MLS) document (based on `ph-ubl`)
     * dbnalliance-commons and dbnalliance-xhe contain the shared components and the header handling for DBNAlliance - the DBNAlliance counterpart of `peppol-sbdh` (based on `ph-xhe`)
     * hredelivery-commons contains the shared components for the Croatian (HR) eDelivery / eRacun network
+* [en16931-basics](https://github.com/phax/en16931-basics) contains the shared building blocks of the EN 16931 tooling - editions (2017 and 2026), syntax constants, BT-24 detection and code lists - used by `en16931-cii2ubl`, `en16931-ubl2cii` and `en16931-purifier`. It deliberately depends on neither `ph-ubl` nor `ph-cii`
 * [en16931-cii2ubl](https://github.com/phax/en16931-cii2ubl) is a library that allows you to convert CII to UBL (only in that direction) in case you are forced to deal with CII but you don't want to deal with it (based on `ph-ubl` and `ph-cii`)
 * [en16931-ubl2cii](https://github.com/phax/en16931-ubl2cii) is a library that allows you to convert UBL to CII (only in that direction) (based on `ph-ubl` and `ph-cii`)
 * [en16931-purifier](https://github.com/phax/en16931-purifier) is a library that removes everything from an EN 16931 invoice that is not part of the core message and writes an XML Schema valid document in the same syntax - input syntax is output syntax, so this is not a converter (based on `ph-ubl` and `ph-cii`)

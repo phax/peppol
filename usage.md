@@ -44,7 +44,7 @@ Publish your endpoint in an SMP, receive via AS4, verify the signature and trust
 * [**peppol-ap-support**](https://github.com/phax/peppol-ap-support/) — same helpers as at C2
 * [**peppol-commons**](https://github.com/phax/peppol-commons) ([`peppol-sbdh`](https://github.com/phax/peppol-commons?tab=readme-ov-file#peppol-sbdh), [`peppol-mls`](https://github.com/phax/peppol-commons?tab=readme-ov-file#peppol-mls), [`peppol-mlr`](https://github.com/phax/peppol-commons?tab=readme-ov-file#peppol-mlr), [`peppol-id`](https://github.com/phax/peppol-commons?tab=readme-ov-file#peppol-id)) — SBDH unwrapping, Message Level Status (MLS) generation; legacy Message Level Response (MLR) support via `peppol-mlr` is being phased out
 * [**peppol-reporting**](https://github.com/phax/peppol-reporting) — TSR / EUSR generation
-* [**phive**](https://github.com/phax/phive) + [**phive-rules**](https://github.com/phax/phive-rules) — inbound validation; or run [**phorm**](https://github.com/phax/phorm) as a standalone validation REST service that C3 calls
+* [**phive**](https://github.com/phax/phive) + [**phive-rules**](https://github.com/phax/phive-rules) — inbound validation; or run [**phorm**](https://github.com/phax/phorm) as a standalone validation REST service that C3 calls (use [**phorm-client**](https://github.com/phax/phorm-client) from Java)
 
 ## C4 — Receiver (processing inbound documents)
 
