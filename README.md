@@ -52,7 +52,7 @@ Please star the project if you like it :)
 # Peppol Directory
 
 * [phoss Directory](https://github.com/phax/phoss-directory) is the technical solution powering the Peppol Directory operated by OpenPeppol at https://directory.peppol.eu and https://test-directory.peppol.eu
-* [phoss Directory Client](https://github.com/phax/phoss-directory?tab=readme-ov-file#pd-client) is a reusable client for accessing the Peppol Directory. This is mainly needed for SMP servers.
+* [phoss Directory Client](https://github.com/phax/peppol-directory-client) is a reusable client for accessing the Peppol Directory. This is mainly needed for SMP servers.
 
 * This is primarily used by OpenPeppol itself, but was used in other eDelivery based EU projects as well
 

@@ -63,7 +63,7 @@ These do not belong to a single corner. They support the Peppol network operated
 
 * [**smp-query-webapp**](https://github.com/Helger-IT/smp-query-webapp) — standalone SMP query service (pre-built Docker image)
 * [**phoss Directory**](https://github.com/phax/phoss-directory) — operate a Peppol Directory server
-* [**phoss Directory Client**](https://github.com/phax/phoss-directory?tab=readme-ov-file#pd-client) — query the Peppol Directory (used by SMPs and any participant)
+* [**phoss Directory Client**](https://github.com/phax/peppol-directory-client) — query the Peppol Directory (used by SMPs and any participant)
 * [**peppol-commons**](https://github.com/phax/peppol-commons) ([`peppol-sml-client`](https://github.com/phax/peppol-commons?tab=readme-ov-file#peppol-sml-client)) — access the Service Metadata Locator (used by SMP servers when registering)
 * [**phoss-peppol-mcp**](https://github.com/phax/phoss-peppol-mcp) — MCP (Model Context Protocol) server exposing Peppol Network capabilities as tools to AI models such as Claude
 
