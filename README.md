@@ -96,10 +96,14 @@ Please star the project if you like it :)
     * peppol-mls contains supporting methods to read and write a Peppol Message Level Status (MLS) document (based on `ph-ubl`)
     * dbnalliance-commons and dbnalliance-xhe contain the shared components and the header handling for DBNAlliance - the DBNAlliance counterpart of `peppol-sbdh` (based on `ph-xhe`)
     * hredelivery-commons contains the shared components for the Croatian (HR) eDelivery / eRacun network
+
+# EN 16931 related components
+
 * [en16931-basics](https://github.com/phax/en16931-basics) contains the shared building blocks of the EN 16931 tooling - editions (2017 and 2026), syntax constants, BT-24 detection and code lists - used by `en16931-cii2ubl`, `en16931-ubl2cii` and `en16931-purifier`. It deliberately depends on neither `ph-ubl` nor `ph-cii`
 * [en16931-cii2ubl](https://github.com/phax/en16931-cii2ubl) is a library that allows you to convert CII to UBL (only in that direction) in case you are forced to deal with CII but you don't want to deal with it (based on `ph-ubl` and `ph-cii`)
 * [en16931-ubl2cii](https://github.com/phax/en16931-ubl2cii) is a library that allows you to convert UBL to CII (only in that direction) (based on `ph-ubl` and `ph-cii`)
 * [en16931-purifier](https://github.com/phax/en16931-purifier) is a library that removes everything from an EN 16931 invoice that is not part of the core message and writes an XML Schema valid document in the same syntax - input syntax is output syntax, so this is not a converter (based on `ph-ubl` and `ph-cii`)
+* [ph-redact](https://github.com/phax/ph-redact) is an XSLT based anonymizer for eInvoices - it replaces all sensitive and personally identifiable data but keeps the document structure, the monetary values and the tax information intact. Format detection and SBDH / XHE unwrapping is done with `ddd`. A CLI is included
 
 # Websites and shared UI
 
@@ -109,7 +113,6 @@ Please star the project if you like it :)
 # Other eInvoicing related components
 
 * [kaltblut](https://github.com/phax/kaltblut) is a library that supports the identification, verification and extraction of XML data from hybrid ZUGFeRD and Factur-X invoices
-* [ph-redact](https://github.com/phax/ph-redact) is an XSLT based anonymizer for eInvoices - it replaces all sensitive and personally identifiable data but keeps the document structure, the monetary values and the tax information intact. Format detection and SBDH / XHE unwrapping is done with `ddd`. A CLI is included
 * [ph-ebinterface](https://github.com/phax/ph-ebinterface) is a library for reading and writing Austrian ebInterface 3.0 up to 6.1 documents
 * [ph-fatturapa](https://github.com/phax/ph-fatturapa) is a library for reading and writing Italian fatturaPA invoices
 * [erechnung.gv.at-webservice-client](https://github.com/phax/erechnung.gv.at-webservice-client) contains the Webservice clients for ER>B - the national Austrian invoicing solution (not affiliated with BRZ)
