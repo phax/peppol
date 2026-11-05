@@ -21,6 +21,7 @@ Build a valid business document, choose Peppol identifiers, validate before hand
 * [**phive**](https://github.com/phax/phive) + [**phive-rules**](https://github.com/phax/phive-rules) + [**ddd**](https://github.com/phax/ddd) — validate the document before handing it to C2 ([`ddd`](https://github.com/phax/ddd) resolves the VESID for [`phive`](https://github.com/phax/phive))
 * [**en16931-cii2ubl**](https://github.com/phax/en16931-cii2ubl) / [**en16931-ubl2cii**](https://github.com/phax/en16931-ubl2cii) — convert between CII and UBL when the back-office format differs from what you must send
 * [**en16931-purifier**](https://github.com/phax/en16931-purifier) — strip everything that is not part of the EN 16931 core message before sending, keeping the syntax and the XML Schema validity
+* [**zugferd-to-peppol-bis**](https://github.com/phax/zugferd-to-peppol-bis) — turn an existing ZUGFeRD / Factur-X hybrid invoice into a Peppol BIS Billing 3 UBL document (with the PDF embedded) ready to hand to C2
 
 ## C2 — Sending Access Point (outbound transmission)
 
@@ -56,6 +57,7 @@ Parse the received document, re-validate, convert it to whatever format your bac
 * [**en16931-cii2ubl**](https://github.com/phax/en16931-cii2ubl) / [**en16931-ubl2cii**](https://github.com/phax/en16931-ubl2cii) — convert into the format your back-office prefers
 * [**en16931-purifier**](https://github.com/phax/en16931-purifier) — reduce the received document to the EN 16931 core message so the back-office only sees standardized content
 * [**kaltblut**](https://github.com/phax/kaltblut) — extract embedded XML from hybrid ZUGFeRD / Factur-X PDF invoices (useful when such invoices arrive alongside Peppol traffic)
+* [**phlox**](https://github.com/phax/phlox) — render the received EN 16931 invoice (UBL or CII) as HTML, PDF or plain text for humans
 
 ## Outside the corners — network infrastructure
 

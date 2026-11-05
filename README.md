@@ -49,6 +49,7 @@ Please star the project if you like it :)
 
 # Document Visualization
 
+* [phlox](https://github.com/phax/phlox) is a visualizer *library* for EN 16931 invoices - it reads UBL (2.1 / 2.5) or CII (D16B / D25A) and renders HTML, PDF (optionally PDF/A, PDF/UA or ZUGFeRD / Factur-X) or plain text in Dutch, English, French, German or Spanish. A CLI is included
 * [en16931-visualization](https://github.com/phax/en16931-visualization) is a collected overview of existing Open Source solutions that visualize EN 16931 based invoices (stylesheets, tools and services, grouped by document format). It is a curated list, not a library
 
 # Peppol Directory
@@ -119,6 +120,7 @@ Please star the project if you like it :)
 # Other eInvoicing related components
 
 * [kaltblut](https://github.com/phax/kaltblut) is a library that supports the identification, verification and extraction of XML data from hybrid ZUGFeRD and Factur-X invoices
+* [zugferd-to-peppol-bis](https://github.com/phax/zugferd-to-peppol-bis) converts a valid ZUGFeRD / Factur-X hybrid invoice to a Peppol BIS Billing 3 UBL invoice or credit note, with the original PDF embedded in the UBL. A CLI is included (based on `kaltblut`, `en16931-cii2ubl` and `phive-rules`)
 * [ph-ebinterface](https://github.com/phax/ph-ebinterface) is a library for reading and writing Austrian ebInterface 3.0 up to 6.1 documents
 * [ph-fatturapa](https://github.com/phax/ph-fatturapa) is a library for reading and writing Italian fatturaPA invoices
 * [erechnung.gv.at-webservice-client](https://github.com/phax/erechnung.gv.at-webservice-client) contains the Webservice clients for ER>B - the national Austrian invoicing solution (not affiliated with BRZ)
