@@ -106,10 +106,11 @@ Please star the project if you like it :)
 
 # EN 16931 related components
 
-* [en16931-basics](https://github.com/phax/en16931-basics) contains the shared building blocks of the EN 16931 tooling - editions (2017 and 2026), syntax constants, BT-24 detection and code lists - used by `en16931-cii2ubl`, `en16931-ubl2cii` and `en16931-purifier`. It deliberately depends on neither `ph-ubl` nor `ph-cii`
+* [en16931-basics](https://github.com/phax/en16931-basics) contains the shared building blocks of the EN 16931 tooling - editions (2017 and 2026), syntax constants, BT-24 detection and code lists - used by `en16931-cii2ubl`, `en16931-ubl2cii`, `en16931-purifier` and `en16931-update`. It deliberately depends on neither `ph-ubl` nor `ph-cii`
 * [en16931-cii2ubl](https://github.com/phax/en16931-cii2ubl) is a library that allows you to convert CII to UBL (only in that direction) in case you are forced to deal with CII but you don't want to deal with it (based on `ph-ubl` and `ph-cii`)
 * [en16931-ubl2cii](https://github.com/phax/en16931-ubl2cii) is a library that allows you to convert UBL to CII (only in that direction) (based on `ph-ubl` and `ph-cii`)
 * [en16931-purifier](https://github.com/phax/en16931-purifier) is a library that removes everything from an EN 16931 invoice that is not part of the core message and writes an XML Schema valid document in the same syntax - input syntax is output syntax, so this is not a converter (based on `ph-ubl` and `ph-cii`)
+* [en16931-update](https://github.com/phax/en16931-update) is a library plus CLI that updates an EN 16931:2017 invoice to EN 16931:2026 in the same syntax (CII D16B to D25A, UBL 2.1 to 2.5, Invoice and Credit Note) - input syntax is output syntax, so this is not a converter, and unknown and extension content is preserved (based on `ph-ubl` and `ph-cii`)
 * [ph-redact](https://github.com/phax/ph-redact) is an XSLT based anonymizer for eInvoices - it replaces all sensitive and personally identifiable data but keeps the document structure, the monetary values and the tax information intact. Format detection and SBDH / XHE unwrapping is done with `ddd`. A CLI is included
 
 # Websites and shared UI
